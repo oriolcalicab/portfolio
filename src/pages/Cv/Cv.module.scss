@@ -1,0 +1,68 @@
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.section {
+  margin-top: 2rem;
+}
+
+.sectionTitle {
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 1.1rem;
+}
+
+.list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.itemTitle {
+  font-size: 1rem;
+}
+
+.itemMeta {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skill {
+  padding: 0.15rem 0.75rem;
+  border-radius: 8px;
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+  font-size: 0.875rem;
+}
+
+.summary {
+  margin-top: 0.75rem;
+}
+
+.skillGroup {
+  margin-bottom: 0.75rem;
+
+  .skills {
+    margin-top: 0.25rem;
+  }
+}
