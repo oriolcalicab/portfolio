@@ -36,6 +36,11 @@ export const en = {
         title: 'Image gallery',
         description: 'Responsive gallery with selection, batch delete and drag-and-drop reordering.',
       },
+      portfolio: {
+        title: 'This portfolio',
+        description:
+          'Multi-language website with a custom language Context and CV PDFs generated from the same texts.',
+      },
       wordpress: {
         title: 'Academia FUNDAPICA',
         description: 'WordPress website built during my internship at FUNDAPICA.',

@@ -49,5 +49,11 @@ export const projects = [
     url: '',
     repo: 'https://github.com/oriolcalicab/image-gallery',
   },
+  {
+    id: 'portfolio',
+    tech: ['React', 'TypeScript', 'React Router', 'SCSS', 'Vite'],
+    url: 'https://portfolio-oriol-cali.netlify.app/',
+    repo: 'https://github.com/oriolcalicab/portfolio',
+  },
   { id: 'wordpress', tech: ['WordPress'], url: 'https://academia-fundapica.kesug.com/?i=1', repo: '' },
 ] as const

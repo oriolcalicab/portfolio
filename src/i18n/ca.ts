@@ -38,6 +38,11 @@ export const ca: Translations = {
         title: "Galeria d'imatges",
         description: 'Galeria responsive amb selecció, esborrat múltiple i reordenació amb drag and drop.',
       },
+      portfolio: {
+        title: 'Aquest portfoli',
+        description:
+          'Web multiidioma amb un Context propi per als idiomes i CV en PDF generats a partir dels mateixos textos.',
+      },
       wordpress: {
         title: 'Acadèmia FUNDAPICA',
         description: 'Web feta amb WordPress durant les pràctiques a FUNDAPICA.',
