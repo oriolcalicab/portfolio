@@ -6,7 +6,7 @@ function LanguageSelector() {
   const { language, setLanguage, t } = useLanguage()
 
   return (
-    <div className={styles.selector} role="group" aria-label={t.language.label}>
+    <div className={styles.selector} role="group" aria-label={t.language.label} translate="no">
       {languages.map((code) => (
         <button
           key={code}
