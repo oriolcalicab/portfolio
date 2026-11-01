@@ -13,7 +13,6 @@ export const ca: Translations = {
     title: 'Projectes',
     intro: 'Algunes de les coses que he fet.',
     visit: 'Visita la web',
-    code: 'Mira el codi',
     items: {
       pastisseria: {
         title: 'Pastisseria La Vall',

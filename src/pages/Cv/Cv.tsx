@@ -1,3 +1,4 @@
+import { FaDownload } from 'react-icons/fa6'
 import { useLanguage } from '../../context/useLanguage'
 import { profile, skillGroups } from '../../data/profile'
 import styles from './Cv.module.scss'
@@ -30,7 +31,12 @@ function Cv() {
     <>
       <div className={styles.top}>
         <h1 className={styles.title}>{t.cv.title}</h1>
-        <a href={profile.cvPdf[language]} download={`CV-Oriol-Cali-${language.toUpperCase()}.pdf`}>
+        <a
+          href={profile.cvPdf[language]}
+          download={`CV-Oriol-Cali-${language.toUpperCase()}.pdf`}
+          className={styles.download}
+        >
+          <FaDownload aria-hidden="true" />
           {t.cv.download}
         </a>
       </div>

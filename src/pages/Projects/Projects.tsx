@@ -1,3 +1,4 @@
+import { FaArrowUpRightFromSquare, FaGithub } from 'react-icons/fa6'
 import { useLanguage } from '../../context/useLanguage'
 import { projects } from '../../data/profile'
 import styles from './Projects.module.scss'
@@ -23,13 +24,15 @@ function Projects() {
               </ul>
               <div className={styles.links}>
                 {project.url && (
-                  <a href={project.url} target="_blank" rel="noreferrer">
+                  <a href={project.url} target="_blank" rel="noreferrer" className={styles.primary}>
+                    <FaArrowUpRightFromSquare aria-hidden="true" />
                     {t.projects.visit}
                   </a>
                 )}
                 {project.repo && (
-                  <a href={project.repo} target="_blank" rel="noreferrer">
-                    {t.projects.code}
+                  <a href={project.repo} target="_blank" rel="noreferrer" className={styles.secondary}>
+                    <FaGithub aria-hidden="true" />
+                    GitHub
                   </a>
                 )}
               </div>

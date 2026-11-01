@@ -13,7 +13,6 @@ export const es: Translations = {
     title: 'Proyectos',
     intro: 'Algunas de las cosas que he hecho.',
     visit: 'Visitar la web',
-    code: 'Ver el código',
     items: {
       pastisseria: {
         title: 'Pastisseria La Vall',

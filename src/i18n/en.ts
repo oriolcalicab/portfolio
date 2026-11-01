@@ -11,7 +11,6 @@ export const en = {
     title: 'Projects',
     intro: 'Some of the things I have built.',
     visit: 'Visit site',
-    code: 'View code',
     items: {
       pastisseria: {
         title: 'Pastisseria La Vall',

@@ -34,8 +34,40 @@
 
 .links {
   display: flex;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   margin-top: 0.75rem;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.3rem 0.75rem;
+    border: 1px solid var(--color-accent);
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.15s, color 0.15s;
+  }
+}
+
+.primary {
+  background: var(--color-accent);
+  color: #fff;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.secondary {
+  color: var(--color-accent);
+
+  &:hover {
+    background: var(--color-accent);
+    color: #fff;
+  }
 }
 
 .tech {
